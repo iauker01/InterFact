@@ -1,23 +1,28 @@
-# CapstoneProjectTemplate /* Replace this line with the title of your project */
+# Interfact
 
 ## **Summary**
 
-Put a very high-level summary of the project.
+Our goal is to make an application that keeps track of railroad crossings and indicating whether they are 
 
 ## **Team Members**
 
-- Joe Black
-- Joe Pesci
-- Joe Dalton
+- Ethan Chester
+- Mason Scott
+- Bella Auker
+- Brooke Wright
+- Tanner Bauserman
+
+## Mentor
+- Bradley Vaal
 
 ## **Client Partner Information**
 
 ### *Company:*
-WHATEVER COMPANY or CORRESPONDENCE
+Delaware County office of Information
 
 ### *People:*
-- Jane Fonda
-- Jane Lynch
+- Kyle Johnson(main client)
+- Ergin Huseyin(technical)
 
 ## **Links**
 
@@ -26,6 +31,14 @@ WHATEVER COMPANY or CORRESPONDENCE
 - [Mentor meeting minutes](MeetingMinutes/Mentor)
 - [Client partner meeting minutes](MeetingMinutes/ClientPartner)
 - ... any other documents/links you see need
+
+## **Code Repositories**
+
+- [Mobile App - Android](https://www.github.com/WHEREEVER_THE_ANDROID_CODE_IS/)
+- [Php Backend](https://www.github.com/WHEREEVER_THE_PHP_CODE_IS)
+- Others if more.
+
+
 
 ## **Code Repositories**
 
