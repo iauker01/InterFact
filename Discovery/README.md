@@ -1,6 +1,6 @@
 # Discovery
 
-## Team members that attended meeting:
+## Team members who attended meeting:
 Tanner Bauserman, Brooke Wright, Bella Auker, Ethan Chester, Bradley Vaal(Mentor)
 
 ## Files
