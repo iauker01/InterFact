@@ -7,8 +7,6 @@
 
 # Non-Functional Requirements
 
-+ The webapp must load in under 5 seconds
-+ The system must have at least 95% uptime
-+ The webapp must support up to 100 users at a time
-+ The system's user count support must be able to be scaled indefinitely without sacrificing load times or causing downtime
++ The railroads must load in under 5 seconds
++ The ArcGIS plugin must have at least 95% uptime
 + The system must be able to be updated without downtime
