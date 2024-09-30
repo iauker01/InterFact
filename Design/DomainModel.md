@@ -1,28 +1,49 @@
 # Domain Model
 ```mermaid
 classDiagram
+  class Intersection
+    Intersection : -String name
+    Intersection : -Coordinates location
   class Camera
-    Camera : -String intersection
-    Camera : -Image lastPicture
+    Camera : -Intersection crossing
+    Camera : -RawPhoto lastPicture
+    Camera : -takePicture() RawPhoto
+    Camera : +sendData() Image
+  Camera "1" --> "1" Intersection
+  Camera --> "1" Email : SendsTo
+  class Image
+    Image : -Intersection location
+    Image : -RawPhoto picture
+    Image : +getLocation(), getPicture()
+  Image "1" --> "1" Intersection
   class Email
-    Email : -Map~Image, String~ messages
     Email : +findImage(intersection) Image
     Email : +addMessage(intersection, picture)
+  Email *-- Image
   class PictureInterpreter
-    PictureInterpreter : -String currentIntersection
+    PictureInterpreter : -Intersection currentIntersection
     PictureInterpreter : -Image currentImage
-    PictureInterpreter : -Database firebase
     PictureInterpreter : -Email checkingEmail
     PictureInterpreter : -determineStatus(Image) ProcessedImage
     PictureInterpreter : -checkEmailForNewMessage()
+  PictureInterpreter --> "1" Image
+  PictureInterpreter --> "1" Email
+  PictureInterpreter --> "1" Database : SendsTo
   class ProcessedImage
-    ProcessedImage: -Image latest_picture
-    ProcessedImage: -bool open
-    ProcessedImage: +getOpen(), getLastestPicture()
+    ProcessedImage: -String status
+    ProcessedImage: +getOpen()
+  ProcessedImage --|> Image
   class Database
-    Database : -Map~ProcessedImage, String~ intersections
-    Database : +getStatusOfIntersection(intesection) bool
-    Database : +getImageofIntersection(intersection) Image
-    Database : +updateIntersection(ProcessedImage, String)
-
+    Database : +getStatusOfIntersection(intersection) String
+    Database : +getImageofIntersection(intersection) RawPhoto
+    Database : +updateIntersection(newProcessedImage, statusString)
+  Database *-- ProcessedImage
+  Class API
+    API : +getDataFromDB() ProcessedImage
+  Database <-- API
+  Class ARCGIS
+    ARCGIS : +showInformation()
+    ARCGIS : +correctCrossingStatus(currentProcessedImage, newStatus)
+  API <-- ARCGIS
+  
 ```
