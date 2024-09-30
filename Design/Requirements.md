@@ -3,7 +3,7 @@
 + View an interactive and responsive map that has railroad crossings marked with their status
 + Click/tap on railroad crossings to view coordinates and the latest image from the camera feed
 + Predict which railroad crossings will be blocked by seeing which intersections have been crossed and when. 
-
++ An API with endpoints for crossing locations, crossing status, and most recent crossing images.
 
 # Non-Functional Requirements
 
