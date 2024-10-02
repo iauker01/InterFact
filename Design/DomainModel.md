@@ -8,27 +8,20 @@ classDiagram
   class Intersection
     Intersection : -String name
     Intersection : -Coordinates location
-    Intersection : -bool blocked
-  class Camera
-    Camera : -Intersection crossing
-    Camera : -RawPhoto lastPicture
-    Camera : -takePicture() RawPhoto
-    Camera : +sendData() Image
-  Camera "1" --> "1" Intersection
-  Camera --> "1" TrainPictureDetector : SendsTo
-  class Image
-    Image : -Intersection location
-    Image : -RawPhoto picture
-    Image : +getLocation(), getPicture()
-  Image "1" --> "1" Intersection
+  class CameraImage
+    CameraImage : -Intersection crossing
+    CameraImage : -RawPhoto lastPicture
+    CameraImage : -takePicture() RawPhoto
+    CameraImage : +send()
+  CameraImage "1" --> "1" Intersection
+  CameraImage --> "1" TrainPictureDetector : SendsTo
   class TrainPictureDetector
-    TrainPictureDetector : +detectTrain(Image) ProcessedImage
-  TrainPictureDetector --> "1" Website
+    TrainPictureDetector : +detectTrain(CameraImage) ProcessedImage
   TrainPictureDetector --> ProcessedImage
   class ProcessedImage
     ProcessedImage: -String status
-    ProcessedImage: +getOpen()
-  ProcessedImage --|> Image
+    ProcessedImage: +getOpen() String
+  ProcessedImage --|> CameraImage
   class Website
     Website : +getStatusOfIntersection(ProcessedImage) String
     Website : +getImageofIntersection(ProcessedImage) RawPhoto
