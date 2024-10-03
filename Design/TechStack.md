@@ -27,7 +27,4 @@ link to [Firebase site](https://firebase.google.com/)
 Since most people have to take a class with python, we saw this as the best option since everyone would have some experience with it. It is also pretty versatile when it comes to Rest APIs. It is a simple language with notations, it also has a good amount of built in libraries and you can easily pull other libraries to it when working with an API. It also works well with JSON and XML which are useful and easy to use with API’s.
 
 link to [pythons site](https://www.python.org/)
-#### C++
-C++ is what ArcGIS is made of so it is what we will use to give the data to the client. The main use will be to make a plugin that will give the data to the client since we do not have access to ArcGIS. This will make it easier to give them the data as well and allow their system to look at it.
 
-link to [C++ site](https://cplusplus.com/)
