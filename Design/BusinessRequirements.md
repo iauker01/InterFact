@@ -6,8 +6,8 @@ The client wants disptchers to be able to very quickly check the status of cross
 and it was mentioned that the more real time updates can get the better. It is important to be able to 
 quickly check the images of an intersection to confirm a blockage.
 
-## BR2 - An API that can be integrated with their existing system
+## BR2 - Add cameras and intersections to Interfact and have them work as expected.
 
-The client said that the best way to eventually integrate into their system would be the use of an API.
-It was stated that we will not have access to their system to implement the feature so they need a 
-way to retrieve the API from us. 
+The secondary client wants new intersections and cameras to be easily added to the existing system
+so that the Interfact system can expand dynamically. This means we do not have to have budget for cameras,
+but a future Interfact business partner can purchase them. 
