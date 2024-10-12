@@ -29,15 +29,15 @@ with a red indicator, while clear intersections are marked in green.
     - The Dispatcher uses the information received from the system to advise first responders on the quickest and most efficient route.
 
 
-- UC 2: A first responder sees that an intersection in their driving route has become blocked and changes routes.
+- UC 2: An Interfact user sees that an intersection in their driving route has become blocked and changes routes.
   - BR1
-  - First Responder
+  - Interfact User
   - Flow:
-    1) First Responder has system open while en route
+    1) User has system open before trip or while en route
     2) An intersection updates its status
     3) The indicator of the intersection clearly changes
     4) If the intersection was part of their path, change directions accordingly
-  - Because trains may come in while first responders are out, they will need to see information quickly, reducing the risk of getting stuck behind a train in the time it takes a dispatcher to inform them of the change.
+  - Because trains may come in while users are already en route, they will need to see information quickly, reducing the risk of getting stuck while a train is crossing.
   
 
 - UC 3: A dispatcher corrects an intersection wrongly marked as blocked or open
