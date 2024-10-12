@@ -1,10 +1,10 @@
 # Functional Requirements
 
-+ FR1 - UC1 (HIGH PRIORITY)
++ FR1 - UC1 (LOW PRIORITY)
   
 View an interactive and responsive map that has railroad crossings marked with their status
 
-+ FR2 - UC1 (MEDIUM PRIORITY)
++ FR2 - UC1 (LOW PRIORITY)
 
 Click/tap on railroad crossings to view coordinates and the latest image from the camera feed
 
@@ -14,7 +14,11 @@ Predict which railroad crossings will be blocked by seeing which intersections h
 
 + FR4 - UC1 (HIGH PRIORITY)
 
-An API with endpoints for crossing locations, crossing status, and most recent crossing images.
+A REST API with endpoints for crossing locations, crossing status, and most recent crossing images that can be accessed by the ArcGIS system.
+
++ FR5 - (MEDIUM PRIORITY)
+
+An admin dashboard that can be used to see and manipulate data from a relational database and firebase.
 
 # Non-Functional Requirements
 
@@ -25,3 +29,4 @@ The intersection indicators must load in under 5 seconds
 + NR2 - (LOW PRIORITY)
 
 The system must be able to be updated without downtime
+
