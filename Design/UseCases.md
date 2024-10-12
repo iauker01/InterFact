@@ -4,6 +4,7 @@
 - Dispatcher
 - First Responder
 - Administrator
+- Interfact User
 
 ## Use Cases
 - UC1: A dispatcher finds the quickest route to a target location as first responders make their way there
@@ -78,7 +79,7 @@ with a red indicator, while clear intersections are marked in green.
 
 - UC 7: User Authentication and Role-Based Authorization
   - BR3, FR7
-  - System User (Admin, Interfact User, or Operator)
+  - Interfact User (Administrator or Standard User)
   - Flow:
     1) Open the login page.
     2) Input username and password.
@@ -103,7 +104,7 @@ with a red indicator, while clear intersections are marked in green.
       
   UC 9: An admin views and analyzes historical railroad crossing data
     - FR9
-    - Admin User
+    - Administrator
     - Flow
       1) Admin logs into the admin dashboard.
       2) Navigates to the "Historical Data" section.
