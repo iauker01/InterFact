@@ -25,5 +25,9 @@ Contains a UML Class Diagram Interfacts Design
 
 Contains all business Requirements for Interfact for both the primary and secondary clients
 
+## [BusinessRequirements.md](https://github.com/iauker01/InterFact/blob/master/Design/Architecture.md)
+
+Contains a diagram picture that shows the architecture of Interfact
+
 
 
