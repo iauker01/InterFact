@@ -29,7 +29,7 @@ with a red indicator, while clear intersections are marked in green.
     - The Dispatcher uses the information received from the system to advise first responders on the quickest and most efficient route.
 
 
--UC 2: A first responder sees that an intersection in their driving route has become blocked and changes routes.
+- UC 2: A first responder sees that an intersection in their driving route has become blocked and changes routes.
   - BR1
   - First Responder
   - Flow:
@@ -40,7 +40,7 @@ with a red indicator, while clear intersections are marked in green.
   - Because trains may come in while first responders are out, they will need to see information quickly, reducing the risk of getting stuck behind a train in the time it takes a dispatcher to inform them of the change.
   
 
--UC 3: A dispatcher corrects an intersection wrongly marked as blocked or open
+- UC 3: A dispatcher corrects an intersection wrongly marked as blocked or open
   - BR1
   - Dispatcher
   - Flow:
@@ -48,5 +48,17 @@ with a red indicator, while clear intersections are marked in green.
     2) Dispatcher selects an intersection
     3) Dispatcher compares latest picture of intersection to its status in the system
     4) If the picture and status do not match, select button reporting issue
-  - There is potential for bad actors here. While it is desirable that when one dispatcher notices the inconsistency, it is corrected for all dispatchers, a single button click affecting an intersection on all systems is ripe for misuse or a misclick causing problems. On the other hand, requiring multiple reports to fix the inconsistency slows down the actual effectiveness of being able to mark something as wrong.   
-  
+  - There is potential for bad actors here. While it is desirable that when one dispatcher notices the inconsistency, it is corrected for all dispatchers, a single button click affecting an intersection on all systems is ripe for misuse or a misclick causing problems. On the other hand, requiring multiple reports to fix the inconsistency slows down the actual effectiveness of being able to mark something as wrong.
+
+
+- UC 4: An administrator sets up a new camera at a new intersection and adds it to the system
+  - BR2
+  - Administrator
+  - Flow:
+    1) Set up new camera pointed at intersection
+    3) Open administrator portal
+    4) Press "Add new intersection"
+    5) Input intersection name, coordinates
+    6) Hook camera to picture-sending email using the intersection name
+    7) Once the new intersection in the system receives pictures, appear on the user dashboard
+  - This is to facilitate the expansion of the system. To prevent bad actors or incorrectly setting up, the new intersections should not appear on the user end unless they begin to receive images
