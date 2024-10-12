@@ -16,9 +16,13 @@ Predict which railroad crossings will be blocked by seeing which intersections h
 
 A REST API with endpoints for crossing locations, crossing status, and most recent crossing images that can be accessed by the ArcGIS system.
 
-+ FR5 - (MEDIUM PRIORITY)
++ FR5 - UC3 (MEDIUM PRIORITY)
 
 An admin dashboard that can be used to see and manipulate data from a relational database and firebase.
+
++ FR6 - UC4 (MEDIUM PRIORITY)
+
+New cameras can be easily added to the existing Interfact system. 
 
 # Non-Functional Requirements
 
