@@ -62,3 +62,17 @@ with a red indicator, while clear intersections are marked in green.
     6) Hook camera to picture-sending email using the intersection name
     7) Once the new intersection in the system receives pictures, appear on the user dashboard
   - This is to facilitate the expansion of the system. To prevent bad actors or incorrectly setting up, the new intersections should not appear on the user end unless they begin to receive images
+
+- UC 5: An Admin Merges and Manipulates Collected Data
+  - BR3
+  - Administrator
+  - Flow:
+    1) The admin uses the dashboard to access collected data from both a relational database and Firebase.
+    2) The admin generates reports and views merged data across multiple intersections.
+   
+- UC 6: A system admin updates the system with no downtime in the service
+  - NR2, BR1
+  - Administrator
+  -Flow:
+    1) The system updates its data and software components without disrupting dispatcher access to crossing statuses and feeds.
+
