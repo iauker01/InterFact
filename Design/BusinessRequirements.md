@@ -12,7 +12,7 @@ The secondary client wants new intersections and cameras to be easily added to t
 so that the Interfact system can expand dynamically. This means we do not have to have budget for cameras,
 but a future Interfact business partner can purchase them. 
 
-## BR3 - Have an admin dashboard that provides reports and merges colected data. 
+## BR3 - An admin dashboard that provides reports and merges colected data. 
 
 The secondary client wants to have an admin dashboard that will be used to see reports on collected/merged data. It will also
 be used to provide data to a webapp in the future.
