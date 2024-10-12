@@ -102,7 +102,7 @@ with a red indicator, while clear intersections are marked in green.
     - This ensures users are promptly notified of blocked intersections, helping with real-time response and planning.
       
   UC 9: An admin views and analyzes historical railroad crossing data
-    - FR
+    - FR9
     - Admin User
     - Flow
       1) Admin logs into the admin dashboard.
