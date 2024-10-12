@@ -24,6 +24,18 @@ An admin dashboard that can be used to see and manipulate data from a relational
 
 New cameras can be easily added to the existing Interfact system. 
 
++ FR7 - UC7 (MEDIUM PRIORITY)
+
+The system should include user authentication and role-based authorization for admin, standard users, and system operators.
+
++ FR8 - UC8 (MEDIUM PRIORITY)
+
+Notifications or alerts should be sent to users when a railroad intersection becomes blocked.
+
+FR9 - UC9 (LOW PRIORITY)
+
+The system should allow users to access and analyze historical data on railroad crossings, including camera feed history and blockage trends.
+
 # Non-Functional Requirements
 
 + NR1 (HIGH PRIORITY)
@@ -34,3 +46,6 @@ The intersection indicators must load in under 5 seconds
 
 The system must be able to be updated without downtime
 
++ NR3 - (LOW PRIORITY)
+
+The admin dashboard and the webapp should be accessible on multiple platforms (e.g., desktop, tablet, mobile) to ensure flexibility for users in different roles
