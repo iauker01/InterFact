@@ -73,6 +73,43 @@ with a red indicator, while clear intersections are marked in green.
 - UC 6: A system admin updates the system with no downtime in the service
   - NR2, BR1
   - Administrator
-  -Flow:
+  - Flow:
     1) The system updates its data and software components without disrupting dispatcher access to crossing statuses and feeds.
 
+- UC 7: User Authentication and Role-Based Authorization
+  - BR3, FR7
+  - System User (Admin, Interfact User, or Operator)
+  - Flow:
+    1) Open the login page.
+    2) Input username and password.
+    3) System verifies credentials.
+    4) Based on user role, access is granted to relevant system features:
+      - Admin: Full access, including admin dashboard.
+      - Standard User: Access to map, status updates.
+      - Operator: Access to camera feeds, crossing data.
+    5) User is redirected to their respective dashboard with role-specific permissions.
+    - This ensures proper access control, allowing only authorized users to perform certain tasks based on their role.
+
+  UC 8: A user receives a notification when a railroad intersection is blocked
+    - FR8
+    - Interfact User
+    - Flow
+      1) The system continuously monitors railroad crossing statuses.
+      2) A railroad intersection becomes blocked.
+      3) System generates a notification (e.g., email, SMS, in-app alert).
+      4) The user receives the notification on their device or platform.
+      5) The user acknowledges the notification and can take appropriate action.
+    - This ensures users are promptly notified of blocked intersections, helping with real-time response and planning.
+      
+  UC 9: An admin views and analyzes historical railroad crossing data
+    - FR
+    - Admin User
+    - Flow
+      1) Admin logs into the admin dashboard.
+      2) Navigates to the "Historical Data" section.
+      3) Select the type of data to view (crossing status, camera feeds, etc).
+      4) Apply filters (by date range, location, or crossing, etc).
+      5) The system displays the requested historical data along with trends and analytics (number of blockages over time, etc).
+      6) Admin analyzes the data for decision-making or reporting.
+    - This ensures users are promptly notified of blocked intersections, helping with real-time response and planning.
+  
