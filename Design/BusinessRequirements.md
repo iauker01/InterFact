@@ -1,10 +1,8 @@
 # Business Requirements
 
-## BR1 - Ability for dispatchers to quickly see which train intersections are blocked
+## BR1 - Ability to quickly see which train intersections are blocked
 
-The client wants disptchers to be able to very quickly check the status of crossings,
-and it was mentioned that the more real time updates can get the better. It is important to be able to 
-quickly check the images of an intersection to confirm a blockage.
+Users of the Intefact system need to be able to quickly see which train intersections are blocked. 
 
 ## BR2 - Add cameras and intersections to Interfact and have them work as expected.
 
