@@ -34,15 +34,7 @@ Delaware County office of Information
 
 ## **Code Repositories**
 
-- [Mobile App - Android](https://www.github.com/WHEREEVER_THE_ANDROID_CODE_IS/)
-- [Php Backend](https://www.github.com/WHEREEVER_THE_PHP_CODE_IS)
-- Others if more.
+- [Interfact API](https://github.com/Ethan-Chester/Interfact-API)
+- [Interfact Admin Dashboard](https://www.github.com/WHEREVER_THE_ADMIN_DASHBOARD_IS)
 
-
-
-## **Code Repositories**
-
-- [Mobile App - Android](https://www.github.com/WHEREEVER_THE_ANDROID_CODE_IS/)
-- [Php Backend](https://www.github.com/WHEREEVER_THE_PHP_CODE_IS)
-- Others if more.
 
