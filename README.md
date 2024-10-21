@@ -2,7 +2,7 @@
 
 ## **Summary**
 
-Our goal is to make an application that keeps track of railroad crossings and indicating whether they are 
+Our goal is to create an application that tracks railroad crossings and indicates whether they are blocked or open for crossing.
 
 ## **Team Members**
 
