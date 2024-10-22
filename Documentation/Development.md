@@ -21,10 +21,26 @@
 2. Install Anaconda; the default values are fine.
 3. Open Anaconda Prompt
 4. In prompt:
-   * `conda create --name interfact`
+   * `conda create --name interfact python=3.13.0`
+     * If you make something incorrectly, the command `conda remove -n [name] --all` will let you begin again
    *  type y to proceed
    * `conda activate interfact`
-   * install packages as written on requirements.txt file using either conda install or pip install
+   * install packages using:
+      * pip install ﻿Flask==3.0.3
+      * pip install firebase-admin==6.5.0
+      * pip install python-dotenv==1.0.1
+      * pip install google-cloud-firestore==2.19.0
+    * once done, type `pip list` to verify these are installed
+5. In a terminal, clone the project with `git clone https://github.com/Ethan-Chester/Interfact-API.git`
+6. Download VisualStudio Code, and install it per their instructions
+7. Open VSCode and open the Interfact-API project
+8. In the extensions tab on the left (looks like multiple blocks), download the Python
+v2024.16.1 extension by Microsoft.
+9. Return to the main tab, and press ctrl+shift+p (or cmd+shift+p for mac). In the tab select Python: Select Intrepreter. Then, select the Python 3.13.0 ('interfact') option.
+10. In the api folder of the project, create a new file called `.env`
+  * Inside the .env file write `firebase_api_key=''`
+  * On another line, write `flask_secret_keys=''`
+  * This is sensitive information that will be assigned to you later. 
 
 ## ArcGIS Plugin:
   
