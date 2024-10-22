@@ -1,6 +1,5 @@
-Technology Stack: 
 
---------------------------------------------
+# Technology Stack: 
 
   • Internet connected camera hardware - Sends image data periodically to interfact.camera@gmail.com
   
@@ -14,13 +13,20 @@ Technology Stack:
   
   • ArcGIS - Plugin to overlay status on map
 
-  ---------------------------------------------------
 
-Replicating Development Enviornment: 
+# Replicating Development Enviornment: 
 
----------------------------------------
+## Code:
+1. Download [Anaconda](https://www.anaconda.com/download/success) with python version 3.12
+2. Install Anaconda; the default values are fine.
+3. Open Anaconda Prompt
+4. In prompt:
+   * `conda create --name interfact`
+   *  type y to proceed
+   * `conda activate interfact`
+   * install packages as written on requirements.txt file // clarify this
 
-  ArcGIS Plugin:
+## ArcGIS Plugin:
   
     1.) Download the plugin file
     
@@ -34,9 +40,9 @@ Replicating Development Enviornment:
       
       b.) Check the box next to "Interfact" plugin to enabvle it
 
------------------------------------------------------
 
-File & Folder Structure: 
+
+# File & Folder Structure: 
 
     INSERT IMAGE OF STARTING FILE FOLDERS HERE
     
