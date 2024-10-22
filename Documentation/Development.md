@@ -24,7 +24,7 @@
    * `conda create --name interfact`
    *  type y to proceed
    * `conda activate interfact`
-   * install packages as written on requirements.txt file // clarify this
+   * install packages as written on requirements.txt file using either conda install or pip install
 
 ## ArcGIS Plugin:
   
