@@ -60,6 +60,6 @@ v2024.16.1 extension by Microsoft.
 
 # File & Folder Structure: 
 
-    INSERT IMAGE OF STARTING FILE FOLDERS HERE
+  ![files in VSCode: there is a folder called "api" that has the files __init__.py and intersections.py. Files outside the folder include .gitignore, main.py, requirements.txt, and vercel.json](initial_files.png)
     
-    • This is the main folder of the Interfact System. Main runnable project files will be located in the Auxiliary Files folder, layout & design files are located in the Design folder, client meeting details are located in the Discovery folder, the Meeting Minutes folder contains team meeting dates and details, the Documentation folder contains the development and deployment files, and the Presentations folder contains files related to Interfact team presentations.
+This is the main folder of the Interfact System. Main runnable project files will be located in the Auxiliary Files folder, layout & design files are located in the Design folder, client meeting details are located in the Discovery folder, the Meeting Minutes folder contains team meeting dates and details, the Documentation folder contains the development and deployment files, and the Presentations folder contains files related to Interfact team presentations.
