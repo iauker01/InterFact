@@ -42,20 +42,6 @@ v2024.16.1 extension by Microsoft.
   * On another line, write `flask_secret_keys=''`
   * This is sensitive information that will be assigned to you later. 
 
-## ArcGIS Plugin:
-  
-    1.) Download the plugin file
-    
-      a.) Extract the plugin to ArcGIS program files (C:\Program Files\ArcGIS\Plugins)
-      
-      b.) Restart ArcGIS
-      
-    2.) Enable plugin through ArcGIS
-    
-      a.) In ArcGIS, navigate to: Customize > Extensions OR Tools > Extensions
-      
-      b.) Check the box next to "Interfact" plugin to enabvle it
-
 
 
 # File & Folder Structure: 
