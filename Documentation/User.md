@@ -5,7 +5,7 @@
 #### 2) Add a new layer to your ArcGIS map
 ![Picture2](https://github.com/user-attachments/assets/0dbcb16f-59ee-4207-a15f-e64d7670a12b)
 
-#### 3) Then hit “Add Layer from URL” where you will add the Interfact REST API URL that can be found at: https://interfact-project.vercel.app/api/intersections/geo-json
+#### 3) Select “Add Layer from URL” where you will add the Interfact REST API URL that can be found at: https://interfact-project.vercel.app/api/intersections/geo-json
 ![Picture3](https://github.com/user-attachments/assets/eaf6afe2-a8fe-4d27-88ef-d447048179fa)
 
 #### Add the REST API URL and select GeoJson as the type
