@@ -8,7 +8,7 @@
 #### Step three: You will then hit “Add Layer from URL” where you will add in our URL at the top and make sure to select the layer type of GeoJSON for it to work. After you are done with that, hit next and it will add the layer to the map
 ![Picture3](https://github.com/user-attachments/assets/eaf6afe2-a8fe-4d27-88ef-d447048179fa)
 
-#### Step four: After its added to the map, it will look like this:
+#### Add the url and select GeoJson:
 ![Picture4](https://github.com/user-attachments/assets/504a75b5-1fec-4803-8fda-29b5abcf2291)
 
 #### The small orange dots are where the intersections we have in the firebase so far.
