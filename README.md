@@ -30,6 +30,7 @@ Delaware County office of Information
 - [Team meeting minutes](MeetingMinutes/Team)
 - [Mentor meeting minutes](MeetingMinutes/Mentor)
 - [Client partner meeting minutes](MeetingMinutes/ClientPartner)
+- [Second Iteration Features](https://github.com/users/iauker01/projects/1/views/2)
 - ... any other documents/links you see need
 
 ## **Code Repositories**
