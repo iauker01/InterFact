@@ -11,7 +11,7 @@
 #### Add the url and select GeoJson:
 ![Picture4](https://github.com/user-attachments/assets/504a75b5-1fec-4803-8fda-29b5abcf2291)
 
-#### The small orange dots are where the intersections we have in the firebase so far.
+#### The small orange dots are all currently tracked Interfact train crossings.
 ![Picture5](https://github.com/user-attachments/assets/25d1aa9e-0d02-4c9b-b33e-48e9ec9efd1e)
 
 #### Step five: If you want to see if it is blocked or not, you can hit the orange dot and it will open up a menu that gives details on it
