@@ -8,7 +8,7 @@
    and
    flask_secret_key=''
    Environment variables will need to be either generated or received from a team member of Interfact
-5) Hit the "Deploy" button and the API will be live
+5) Hit the "Deploy" button and the API will be live.
 
 # How to update the deployment
 
