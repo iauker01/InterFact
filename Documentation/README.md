@@ -1,6 +1,6 @@
 # Links to Documentation
-[Deployment](Documentation/Deployment.md)
+[Deployment](https://github.com/iauker01/InterFact/blob/master/Documentation/Deployment.md)
 
-[Development](Documentation/Development.md)
+[Development](https://github.com/iauker01/InterFact/blob/master/Documentation/Development.md)
 
-[User](Documentation/User.md)
+[User](https://github.com/iauker01/InterFact/blob/master/Documentation/User.md)
