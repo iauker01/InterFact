@@ -30,11 +30,19 @@ The system should include user authentication and role-based authorization for a
 
 + FR8 - UC8 (MEDIUM PRIORITY)
 
-Notifications or alerts should be sent to users when a railroad intersection becomes blocked.
+Notifications should be sent to users when a railroad intersection becomes blocked.
 
  + FR9 - UC9 (LOW PRIORITY)
 
-The system should allow users to access and analyze historical data on railroad crossings, including camera feed history and blockage trends.
+The system should allow admins to access and analyze historical intersection data.
+
++ FR - UC9 (LOW PRIORITY)
+
+The system should allow admins to access camera feed history
+
++ FR - UC9 (LOW PRIORITY)
+
+The system should allow admins to access blockage trends.
 
 # Non-Functional Requirements
 
@@ -48,4 +56,8 @@ The system must be able to be updated without downtime
 
 + NR3 - (LOW PRIORITY)
 
-The admin dashboard and the webapp should be accessible on multiple platforms (e.g., desktop, tablet, mobile) to ensure flexibility for users in different roles
+The admin dashboard and the webapp should be accessible on desktop
+
++ NR4 - (LOW PRIORITY)
+
+The admin dashboard and the webapp should be accessible on mobile
