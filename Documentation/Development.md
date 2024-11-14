@@ -41,7 +41,7 @@ v2024.16.1 extension by Microsoft.
   * Inside the .env file write `firebase_api_key=''`
   * On another line, write `flask_secret_keys=''`
   * This is sensitive information that will be assigned to you later. 
-
+11. Once you receive the keys, the application cannot be run locally. The only way to check your changes are correct is to follow [deployment](deployment.md) for updating.
 
 
 # File & Folder Structure: 
