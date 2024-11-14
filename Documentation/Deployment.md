@@ -12,7 +12,7 @@
 
 # How to update the deployment
 
-To update the deployment, push the changes to the GitHub that the Vercel deployment is linked to and the deployment will be instantly redeployed with the updates.
+To update the deployment, push the changes to the GitHub that the Vercel deployment is linked to and the deployment will be instantly redeployed with the updates. Check that your changes affect `https://interfact-project.vercel.app/api/intersections/geo-json`
 
 # Troubleshooting
 
