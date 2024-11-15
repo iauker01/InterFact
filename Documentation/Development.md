@@ -38,15 +38,16 @@
 v2024.16.1 extension by Microsoft.
 9. Return to the main tab, and press ctrl+shift+p (or cmd+shift+p for mac). In the tab select Python: Select Intrepreter. Then, select the Python 3.13.0 ('interfact') option.
 10. In the api folder of the project, create a new file called `.env`
-  * Inside the .env file write `firebase_api_key=''`
-  * On another line, write `flask_secret_keys=''`
-  * This is sensitive information that will be assigned to you later. 
-11. Once you receive the keys, the application cannot be run locally. The only way to check your changes are correct is to follow [deployment](Deployment.md) for updating.
+    * Inside the .env file write `firebase_api_key=''`
+    * On another line, write `flask_secret_keys=''`
+    * This is sensitive information that will be assigned to you later. 
+11. Once you receive the keys, and the `.env` file is saved, you may run the API locally by running `main.py`.
+    * Go to the link `http://127.0.0.1:5000/api/intersections/geo-json` to confirm that the build is producing geo-json properly.
 
 
 # File & Folder Structure: 
 
-  ![files in VSCode: there is a folder called "api" that has the files __init__.py and intersections.py. Files outside the folder include .gitignore, main.py, requirements.txt, and vercel.json](initial_files.png)
+  ![files in VSCode: there is a folder called "api" that has the files __init__.py, .env, and intersections.py. Files outside the folder include .gitignore, main.py, requirements.txt, and vercel.json](initial_files.png)
 
 This is the file structure for the Interfact API. init.py and intersection.py both constitute the API files, which are called in main.py.
 
