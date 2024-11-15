@@ -43,6 +43,7 @@ v2024.16.1 extension by Microsoft.
     * This is sensitive information that will be assigned to you later. 
 11. Once you receive the keys, and the `.env` file is saved, you may run the API locally by running `main.py`.
     * Go to the link `http://127.0.0.1:5000/api/intersections/geo-json` to confirm that the build is producing geo-json properly.
+    * Once you are finished using the server, return to the terminal in VSCode and press `ctrl+c` to safely close the server.
 
 
 # File & Folder Structure: 
