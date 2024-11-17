@@ -9,12 +9,12 @@
   
   • Firebase - Stores the latest state for each intersection for system access
   
-  • Angular - Front end development
+  • Angular - Front-end development
   
-  • ArcGIS - Plugin to overlay status on map
+  • ArcGIS - Plugin to overlay status on a map
 
 
-# Replicating Development Enviornment: 
+# Replicating Development Environment: 
 
 ## Manually:
 1. Download [Anaconda](https://www.anaconda.com/download/success) with python version 3.12
@@ -50,16 +50,17 @@ v2024.16.1 extension by Microsoft.
 2. Download [Docker Desktop](https://www.docker.com/products/docker-desktop/) for your OS
 3. Install per their directions. It may require restarting your computer
     * There is no need to open the docker desktop app. If it opens, you may close it.
-    * If you do chose to use it in some scenarios, simply skip the intial questions it asks you.
+    * If you do choose to use it in some scenarios, simply skip the initial questions it asks you.
     * Additionally, the Docker Desktop apps takes a while to open. Have patience.
 4. Open VSCode. In the extensions tab on the left, which looks like multiple squares, find the Docker extension, v 1.29.3 created by Microsoft, and download it.
 5. In the terminal in VSCode, enter the command `docker build -t interfact-image .`
     * This creates a new image of the name "interfact-image"
     * Be sure to include the period at the end
+    * Be sure that Docker Desktop is open when running this command
     * The initial build will be slow, but it will speed up after the first time
 6. To run the project, enter the command `docker run -d -p 5000:5000 interfact-image`
     * Without using -d -p, the container will not run in your browser.
-    * If it asks for Docker Backend to acces your computer, allow it.
+    * If it asks for Docker Backend to access your computer, allow it.
 7. Check that the build is running by going to [`localhost:5000/api/intersections/geo-json`](localhost:5000/api/intersections/geo-json)
 8. To stop the build, enter `docker ps` to find all containers and their IDs. Find the one you were just running, and enter `docker stop [containerID]`
     * It takes a moment for a container to stop.
@@ -76,4 +77,4 @@ If Docker Desktop is not opening, try closing VSCode, opening Task Manager, and 
 
 This is the file structure for the Interfact API. init.py and intersection.py both constitute the API files, which are called in main.py.
 
-In a seperate repository, a documentation file structure is implemented. Main runnable project files will be located in the Auxiliary Files folder, layout & design files are located in the Design folder, client meeting details are located in the Discovery folder, the Meeting Minutes folder contains team meeting dates and details, the Documentation folder contains the development and deployment files, and the Presentations folder contains files related to Interfact team presentations.
+In a separate repository, a documentation file structure is implemented. Main runnable project files will be located in the Auxiliary Files folder, layout & design files are located in the Design folder, client meeting details are located in the Discovery folder, the Meeting Minutes folder contains team meeting dates and details, the Documentation folder contains the development and deployment files, and the Presentations folder contains files related to Interfact team presentations.
