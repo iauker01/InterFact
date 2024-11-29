@@ -1,7 +1,8 @@
 # Manual Replication
 1. Clone github
 2. get vscode
-3. in vscode, run these in terminal
+3. in vscode, run these in terminal. First, make sure you cd into /interfact-admin-dashboard/
+   
 `npm i --save @fortawesome/fontawesome-svg-core
 npm i --save @fortawesome/free-solid-svg-icons
 npm i --save @fortawesome/free-regular-svg-icons
@@ -15,5 +16,5 @@ npm install typescript
 npm install --save @types/node
 npm install --save @types/react-dom
 npm install --save @types/react`
-4. make sure your node.js is > 18.18, if not download from https://nodejs.org/en
-5. Get the .env file from teammate
+5. make sure your node.js is > 18.18, if not download from https://nodejs.org/en
+6. Get the .env file from teammate
