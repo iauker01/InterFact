@@ -1,22 +1,6 @@
 # Manual Replication
 1. Clone github in a gitbash terminal via `git clone https://github.com/AceLeft/Interfact-Admin-Dashboard`
-2. get VSCode
-3. In VSCode, run the following commands in a terminal. First, make sure you cd into /interfact-admin-dashboard/
-   
-`npm i --save @fortawesome/fontawesome-svg-core
-npm i --save @fortawesome/free-solid-svg-icons
-npm i --save @fortawesome/free-regular-svg-icons
-npm i --save @fortawesome/free-brands-svg-icons
-npm install firebase
-npm install --save luxon
-npm install next@latest react@latest react-dom@latest
-npm install -D tailwindcss
-npm install postcss
-npm install typescript
-npm install --save @types/node
-npm install --save @types/react-dom
-npm install --save @types/react
-npm install --save-dev jest`
-
-5. make sure your node.js is > 18.18, if not download from https://nodejs.org/en
+2. Get VSCode for your computer via https://code.visualstudio.com/
+3. Open the dashboard folder in VSCode. Then, open a terminal in VSCode. First, make sure you cd into /interfact-admin-dashboard/. You may ensure you are in the right folder by typing `ls` into the terminal; you should see many .js and .ts files. Then, run `npm install` to install all of the project's dependencies.
+5. Make sure your node.js is > 18.18, if not download from https://nodejs.org/en
 6. Get the .env file from teammate
