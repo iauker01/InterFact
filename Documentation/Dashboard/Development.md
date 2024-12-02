@@ -27,6 +27,9 @@ src/app
 # Explaining config files
 
 # How to replicate Via Docker
+1. Clone github in a gitbash terminal via `git clone https://github.com/AceLeft/Interfact-Admin-Dashboard`
+2. Get VSCode for your computer via https://code.visualstudio.com/
+3. Download [Docker Desktop](https://www.docker.com/products/docker-desktop/) for your OS
 
 # How to run tests & Interpret the results
   To run system tests, type "npm run test" into the project terminal.
