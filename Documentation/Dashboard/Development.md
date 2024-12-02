@@ -8,7 +8,7 @@
 8. On a browser tab on your machine, type "http://localhost:3000" into the address bar.
 
 # Folder Structure
-![Screenshot (42)](https://github.com/user-attachments/assets/213d0687-3496-4647-b205-f9a5dcc2f85c)
+![Screenshot (43)](https://github.com/user-attachments/assets/e3ad351f-0387-4019-bafd-1911021eb696)
 
 - _mocks_ : Contains mock data for testing purposes
 - _tests_ : System tests
