@@ -8,11 +8,26 @@
 8. On a browser tab on your machine, type "http://localhost:3000" into the address bar.
 
 # Folder Structure
+![Screenshot (42)](https://github.com/user-attachments/assets/213d0687-3496-4647-b205-f9a5dcc2f85c)
+
+- _mocks_ : Contains mock data for testing purposes
+- _tests_ : System tests
+-  public : Contains .webp images used in the system
+
+src/app
+![image](https://github.com/user-attachments/assets/093726f4-5722-4da7-89e4-9f1de76e603a)
+• Contains the core elements of the Interfact admin dashboard, including:
+    - All .tsx pages for interactable elements 
+    - DAO/Firebase files
+    - Files for system font
+    - Typescript hooks for user feedback and Intersection data
+    - + other files such as the Dockerfile, tsconfig & firebaseconfig files, and more. 
+
 
 # Explaining config files
 
 # How to replicate Via Docker
 
 # How to run tests & Interpret the results
-
+  To run system tests, type "npm run test" into the project terminal.
 
