@@ -15,7 +15,8 @@
 -  public : Contains .webp images used in the system
 
 src/app
-![image](https://github.com/user-attachments/assets/093726f4-5722-4da7-89e4-9f1de76e603a)
+![Screenshot (43)](https://github.com/user-attachments/assets/e9c737fb-9b44-4448-8cfa-4d39d4bb3471)
+
 • Contains the core elements of the Interfact admin dashboard, including:
     - All .tsx pages for interactable elements 
     - DAO/Firebase files
