@@ -1,9 +1,8 @@
 # TechStack
 ## Front-End
-### Angular
-Angular is a pretty versatile web framework that gives us multiple options of where to go with the project. It allows us to easily do modulation with our code and test separate parts easily and allows to debug it with its extensions. It also help with getting the updates from the data to our client as well.
+### Next.js / React
+Next.js and React connect easily with databases and have a smooth connection between front end and back end.
 
-link to [Angulars site](https://angular.dev/)
 ### Back-End
 
 ### Server
@@ -27,4 +26,7 @@ link to [Firebase site](https://firebase.google.com/)
 Since most people have to take a class with python, we saw this as the best option since everyone would have some experience with it. It is also pretty versatile when it comes to Rest APIs. It is a simple language with notations, it also has a good amount of built in libraries and you can easily pull other libraries to it when working with an API. It also works well with JSON and XML which are useful and easy to use with API’s.
 
 link to [pythons site](https://www.python.org/)
+
+#### javascript
+This is because we're using next.js.
 
