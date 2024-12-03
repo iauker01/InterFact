@@ -15,6 +15,8 @@
 -  public : Contains .webp images used in the system
 
 src/app
+
+
 ![Screenshot (43)](https://github.com/user-attachments/assets/e9c737fb-9b44-4448-8cfa-4d39d4bb3471)
 
 • Contains the core elements of the Interfact admin dashboard, including:
@@ -27,11 +29,15 @@ src/app
 
 # Explaining config files
 
+• babel.config.js: Configures the JS Babel compiler to work with a react project & typescript.
+• jest.config.ts: See code comments [HERE](https://github.com/AceLeft/Interfact-Admin-Dashboard/blob/main/interfact-admin-dashboard/jest.config.ts)
+• next.config.ts: Sets strict mode in react off.
+
 # How to replicate Via Docker
 1. Clone github in a gitbash terminal via `git clone https://github.com/AceLeft/Interfact-Admin-Dashboard`
 2. Get VSCode for your computer via https://code.visualstudio.com/
 3. Download [Docker Desktop](https://www.docker.com/products/docker-desktop/) for your OS
 
-# How to run tests & Interpret the results
+# How to run tests
   To run system tests, type "npm run test" into the project terminal.
 
