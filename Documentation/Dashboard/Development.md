@@ -37,6 +37,14 @@ src/app
 1. Clone github in a gitbash terminal via `git clone https://github.com/AceLeft/Interfact-Admin-Dashboard`
 2. Get VSCode for your computer via https://code.visualstudio.com/
 3. Download [Docker Desktop](https://www.docker.com/products/docker-desktop/) for your OS
+4. Download [Node.js](https://nodejs.org/en) of version 22 or higher. You can check what version you have by entering `node -v` into a terminal.
+   * If you have an earlier version of node, download a newer one to overwrite it
+5. In the terminal in VSCode, enter the `command docker build -t dashboard-image .`
+   * This creates a new image of the name "dashboard-image"
+   * Be sure to include the period at the end
+   * The initial build will be slow, around 3 minutes, but it will speed up after the first time
+6. In the terminal, run `docker run -d -p 3000:3000 dashboard-image`
+7. Visit http://localhost:3000/ to ensure that it is running
 
 # How to run tests
   To run system tests, type "npm run test" into the project terminal.
