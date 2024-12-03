@@ -20,6 +20,7 @@ src/app
 ![Screenshot (43)](https://github.com/user-attachments/assets/e9c737fb-9b44-4448-8cfa-4d39d4bb3471)
 
 • Contains the core elements of the Interfact admin dashboard, including:
+
     - All .tsx pages for interactable elements 
     - DAO/Firebase files
     - Files for system font
@@ -30,7 +31,9 @@ src/app
 # Explaining config files
 
 • babel.config.js: Configures the JS Babel compiler to work with a react project & typescript.
+
 • jest.config.ts: See code comments [HERE](https://github.com/AceLeft/Interfact-Admin-Dashboard/blob/main/interfact-admin-dashboard/jest.config.ts)
+
 • next.config.ts: Sets strict mode in react off.
 
 # How to replicate Via Docker
