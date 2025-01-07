@@ -35,7 +35,7 @@ Delaware County office of Information
 
 ## **Code Repositories**
 
-- [Interfact API](https://github.com/Ethan-Chester/Interfact-API)
+- [Interfact API](https://github.com/Ethan-Chester/Interfact-REST-API)
 - [Interfact Admin Dashboard](https://github.com/AceLeft/Interfact-Admin-Dashboard)
 
 
