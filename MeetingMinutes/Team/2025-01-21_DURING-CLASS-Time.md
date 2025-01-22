@@ -26,3 +26,7 @@ First did the pull request for the changes Ethan made the night before. Everyone
 Ethan started Setting up the ability to delete user reports from users once their report has been reviewed and accepted or denied. Tanner worked on showing the maintenance status if the camera is marked with that status.
 Bella got a new laptop before the meeting so she has to get everything set back up.
 
+----------------------------------------------------------------------------------------------------------------------
+### Section One Meeting Minutes:
+https://github.com/iauker01/InterFact/blob/master/MeetingMinutes/Team/2025-01-21__S1_DURING-CLASS-TIME.md
+
