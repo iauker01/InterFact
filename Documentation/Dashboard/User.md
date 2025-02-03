@@ -10,15 +10,15 @@ The Interfact admin dashboard has a number of features. This document will show 
 
 #### 2: Main Dashboard Page
 ![Screenshot (36)](https://github.com/user-attachments/assets/0e2d7a3a-2634-48da-adae-7fef2a180452)
+![Screenshot 2025-02-03 102357](https://github.com/user-attachments/assets/67a70fd6-1508-487d-81ec-f74be23efdef)
 
 • After a correct passkey is entered, the user is taken to the main dashboard page shown above. From here, the user can:
 
       • View added cameras at the bottom of the page.
       
       • Filter viewed results by pressing the "Filter" button, which will then
-          reveal "OPEN" and "BLOCKED" buttons, which will filter the search results
-          based on the open or blocked status of the intersection
-          the camera iten is placed at.
+          reveal "OPEN," "BLOCKED," and "UNDER MAINTENANCE" buttons, which will filter the search results
+          based on the current status of the intersection the camera item is placed at.
       
       • Add new cameras by pressing the "+" button at the bottom of the page.
       
@@ -79,13 +79,16 @@ Each card will have 5 indicators:
 
 #### 6: View camera details:
 ![Screenshot (37)](https://github.com/user-attachments/assets/c41fcf79-b5c7-4258-bc42-c2552fcbc7f3)
+![Screenshot 2025-02-03 102433](https://github.com/user-attachments/assets/b3855b63-7a83-40d7-8d94-d7c67cf51ad4)
 
     • By clicking on a camera, a camera dashboard will appear like shown above. 
     • This view will contain additional camera specific data such as:
       - The cameras longitude and latitude
       - ID, image path for the most recent picture & it's timestamp, and status.
       - A list of reports recieved from users,
-        each with an image path and a report classification.
+        each with an image path and a report classification. 
+     • Accept or Deny user reports by clicking on the thumbs up or down images according to the 
+           report's validity. 
 
 
 
