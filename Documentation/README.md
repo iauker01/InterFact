@@ -3,4 +3,4 @@
 
 [Development](Dashboard/Development.md)
 
-[User](https://github.com/iauker01/InterFact/blob/master/Documentation/User.md)
+[User](/Dashboard/User.md)
