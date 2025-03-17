@@ -90,5 +90,15 @@ Each card will have 5 indicators:
      • Accept or Deny user reports by clicking on the thumbs up or down images according to the 
            report's validity. 
 
+#### 6: View Predictive Data For Intersection:
+![Screenshot (102)](https://github.com/user-attachments/assets/8adfcf32-5d1e-4f12-ae82-aba60669cf3a)
+
+• Users can: 
+
+• See how busy an intersection is on average during any given time of day.
+
+• See the ammount of time on average the intersection is blocked.
+
+• See the total ammount of time the intersection was blocked in the last 24 hours & in the last week.
 
 
