@@ -1,5 +1,5 @@
 # Links to Documentation
-[Deployment](https://github.com/iauker01/InterFact/blob/master/Documentation/Deployment.md)
+[Deployment](/Dashboard/Deployment.md)
 
 [Development](Dashboard/Development.md)
 
