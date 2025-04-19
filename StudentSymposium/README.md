@@ -29,3 +29,6 @@ It was interesting for the hour long time I was there. I thought that there woul
 
 Mason - 
 I found the experiance to be interesting to be apart of. I wish I would have gotten the chance to explore the other projects more, as it was very interesting to see what students in other departments have been working on. I had the opportunity to listen to the presentations of the teams around me and was truly entertained and felt that I learned a lot just from the few teams presenting around me. There was a big variety of peolple there, and lots of friends who liked the chance to go through the poster at the symposium. Overall, it was a great educational experiance with good snacks and good people!  
+
+Bella-
+Overall I feel like the Symposium was definitely a good event to attend. The people who did walk up were interested to hear about projects and asked good questions as well. It was also interesting to see the various other projects that other students across the different majors have been putting their time and effort into. Going into the symposium and doing a handful of presentations for those people, it did help me going into the banquet and the game release event we had, where lots of presenting and talking with people about our projects happened.
