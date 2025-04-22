@@ -90,15 +90,25 @@ Each card will have 5 indicators:
      • Accept or Deny user reports by clicking on the thumbs up or down images according to the 
            report's validity. 
 
-#### 6: View Predictive Data For Intersection:
-![Screenshot (102)](https://github.com/user-attachments/assets/8adfcf32-5d1e-4f12-ae82-aba60669cf3a)
+#### 6: View Predictive Data For Specific Intersections:
+![Screenshot (133)](https://github.com/user-attachments/assets/4ee9f240-5927-4fc8-8de0-42291ff1f5f8)
 
 • Users can: 
 
-• See how busy an intersection is on average during any given time of day.
+• See how busy an intersection is during any given time of day.
 
 • See the ammount of time on average the intersection is blocked.
 
 • See the total ammount of time the intersection was blocked in the last 24 hours & in the last week.
 
+#### 7: Upload Snapshot of Data to Firebase:
+![Screenshot (132)](https://github.com/user-attachments/assets/4109f2c2-a5c3-4980-9df7-e1e41f0fd6ee)
 
+• By clicking the right most button on the "Hourly Blocked Percentage" widget, a popup will appear to give the snapshot a name before clicking the upload button. 
+
+#### 8: Refresh logs & View Agerage Block % For Each Day of the Week:
+![Buttons](https://github.com/user-attachments/assets/1ada5cf8-5201-4ddc-9d41-1292cc2a473d)
+
+• By clicking the middle button, the list of camera logs are fetched, adding new entries if new entries have been added since the page was first loaded. 
+
+• Clicking the first button on the left will change the view from hourly throughout the week to % blocked for each day of the week!
