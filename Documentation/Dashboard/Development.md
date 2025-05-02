@@ -7,8 +7,9 @@
 7. Install MySQL (Guide: `https://docs.fontawesome.com/web/use-with/react`)
 8. Create a MySQL account, and type your password into the .env file variable "DB_Pass" on line 10.
 9. Type "npm install mysql2" into the terminal to install the necessary components for the mySQL database
-10. In the terminal, type "npm run dev", and wait for the dashboard to compile.
-11. On a browser tab on your machine, type "http://localhost:3000" into the address bar.
+10. Fill out your '.env' file as explained in [Deployment.md](Deployment.md)
+11. In the terminal, type "npm run dev", and wait for the dashboard to compile.
+12. On a browser tab on your machine, type "http://localhost:3000" into the address bar.
 
 # Folder Structure
 ![Screenshot (43)](https://github.com/user-attachments/assets/e3ad351f-0387-4019-bafd-1911021eb696)
@@ -32,9 +33,9 @@ src/app
 
 # Explaining config files
 
-• babel.config.js: Configures the JS Babel compiler to work with a react project & typescript.
-• jest.config.ts: See code comments [HERE](https://github.com/AceLeft/Interfact-Admin-Dashboard/blob/main/interfact-admin-dashboard/jest.config.ts)
-• next.config.ts: Sets strict mode in react off.
+- babel.config.js: Configures the JS Babel compiler to work with a react project & typescript.
+- jest.config.ts: See code comments [HERE](https://github.com/AceLeft/Interfact-Admin-Dashboard/blob/main/interfact-admin-dashboard/jest.config.ts)
+- next.config.ts: Sets strict mode in react off.
 
 # How to replicate Via Docker
 1. Clone github in a gitbash terminal via `git clone https://github.com/AceLeft/Interfact-Admin-Dashboard`
@@ -46,8 +47,9 @@ src/app
    * This creates a new image of the name "dashboard-image"
    * Be sure to include the period at the end
    * The initial build will be slow, around 3 minutes, but it will speed up after the first time
-6. In the terminal, run `docker run -d -p 3000:3000 dashboard-image`
-7. Visit http://localhost:3000/ to ensure that it is running
+6. Fill out your '.env' file as explained in [Deployment.md](Deployment.md)
+7. In the terminal, run `docker run -d -p 3000:3000 dashboard-image`
+8. Visit http://localhost:3000/ to ensure that it is running
 
 # How to run tests
-  To run system tests, type "npm run test" into the project terminal.
+  To run system tests, type "npm test" into the project terminal.
