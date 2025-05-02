@@ -5,4 +5,5 @@
 
 ## Future improvements
 - Our final changes have not been well tested
+- Our "Cities" page (app/cities/page.tsx) is a static page that takes the user to the "Intersections" page (app/Intersection/page.tsx), and does not actually sort based on any city. If future cities are to be addded, the link on the Cities page should send the Intersections page something to filter what it displays by.
 
