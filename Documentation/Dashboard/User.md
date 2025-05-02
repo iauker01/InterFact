@@ -38,18 +38,8 @@ The Interfact admin dashboard has a number of features. This document will show 
           from the nav bar at the top of the page. 
 
 
-#### 3: Add A Camera to the Dashboard View
-![Screenshot (28)](https://github.com/user-attachments/assets/2030f769-e0b0-4367-9767-9aaccda3ce25)
 
-    • When a user presses the "+" button on the main dashboard page,
-        a new section will appear as shown above.
-        
-    • To add a camera, the cameras id, name, lattitude, and longitude
-        will need to be entered in the respective fields, and then
-        press the "ADD" button at the bottom of the text fields. 
-
-
-#### 4: View map data from interfact.live
+#### 3: View map data from interfact.live
 ![Screenshot (26)](https://github.com/user-attachments/assets/165503b5-fe84-4a9d-a7c6-8af8858c33fa)
 
     • If the user presses the "Map View" button located on
@@ -60,7 +50,7 @@ The Interfact admin dashboard has a number of features. This document will show 
         by clicking the "Register" button) to view the data on a
         map for the city of Muncie.
 
-#### 5: View camera data
+#### 4: View camera data
 ![Screenshot (33)](https://github.com/user-attachments/assets/25545903-7f4b-4ed7-8648-0a7bb9caff66)
 
     • Each card item is a camera at a railway intersection. The most recent
@@ -77,7 +67,7 @@ Each card will have 5 indicators:
     - A Green or Red colored Bar: Will be Red if the camera is not working, & Green if operational.
 
 
-#### 6: View camera details:
+#### 5: View camera details:
 ![Screenshot (37)](https://github.com/user-attachments/assets/c41fcf79-b5c7-4258-bc42-c2552fcbc7f3)
 ![Screenshot 2025-02-03 102433](https://github.com/user-attachments/assets/b3855b63-7a83-40d7-8d94-d7c67cf51ad4)
 
